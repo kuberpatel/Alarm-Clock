@@ -1,0 +1,100 @@
+body{
+  background: radial-gradient(circle at -0.2% 48.9%, rgb(32, 233, 104) 0%, rgb(13, 167, 236) 99.8%);
+  
+ 
+}
+h1{
+  margin-left: 590px;
+  font-weight: bold;
+    font-size: 40px;
+    background-color: #fee2f8;
+background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+
+    /* background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4)); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  
+}
+/* Set container styles */
+.container {
+  padding:18px;
+  margin: auto;
+  margin-top: 80px;
+  background: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  width:30vw ;
+   height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+/* Style the clock  */
+#clock-image{
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  margin-bottom: 25px;
+}
+
+
+/* Style the clock */
+#clock {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  
+  
+}
+
+/* Style the alarm form */
+#alarm-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#alarm-form h3 {
+  margin-bottom: 10px;
+}
+
+#alarm-form label {
+  margin-bottom: 5px;
+}
+
+#alarm-form input[type="number"],
+#alarm-form select {
+  margin-bottom: 10px;
+  padding: 4px;
+  width: 55px;
+  border: 1px solid black;
+}
+
+/* Style the Set Alarm button */
+#set, #stop {
+  padding: 8px 16px;
+  height: 30px;
+  width: 65px;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/* Style the alarm list */
+.alarm-list {
+  text-align: center;
+}
+
+.alarm-list h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+  margin-left: 8px;
+}
+
+
