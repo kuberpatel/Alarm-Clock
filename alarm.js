@@ -105,10 +105,9 @@ function checkAlarms(currentTime) {
 
     // Get all alarms in the list
     const alarms = alarmList.querySelectorAll('div');
-    alarms.forEach(alarm => {
-      alarm.style.color = 'white';
-    });
-    
+    for (let alarm of alarms) {
+    alarm.style.color = 'white';
+    }
 
     // Check if any alarms match the current time
     alarms.forEach((alarm) => {
